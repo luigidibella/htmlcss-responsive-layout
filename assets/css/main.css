@@ -212,7 +212,26 @@ header .container {
 .about-us .row .col {
   height: 415px;
   background-color: rgb(151, 146, 228, 0.2);
+}
 
+/* GET-STARTED SECTION */
+
+.get-started {
+
+}
+
+.get-started .container {
+  padding: 68px 32px 64px;
+  background-color: #9792e4;
+}
+
+.get-started .row {
+
+}
+
+.get-started .row .col {
+  height: 484px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 
