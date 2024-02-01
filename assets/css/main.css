@@ -1,0 +1,60 @@
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  /* background-color: brown; */
+}
+
+/************************************************
+    UTILITIES
+ ************************************************/
+
+/* LAYOUT */
+.container {
+  width: 312px;
+  margin: 0 32;
+  /* padding: 0 20px; */
+}
+
+.row {
+  /* display: flex; */
+}
+
+.col {
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
+}
+
+/* TEXT */
+.text-center {
+  /* text-align: center; */
+}
+
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+
+/* MOBILE FIRST */
+/* Con Mobile first il default è pensato al mobile  */
+body{
+  background-color: rgb(147, 6, 6)          /* DEBUG */    
+}
+
+@media screen and (min-width: 768px){
+  body{
+    background-color: rgb(27, 147, 57)      /* DEBUG */
+  }
+} 
+
+@media screen and (min-width: 1200px){
+  body{
+    background-color: rgb(47, 31, 194)      /* DEBUG */
+  }
+}
