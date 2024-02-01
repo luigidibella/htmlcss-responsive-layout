@@ -18,8 +18,8 @@ body {
 
 /* LAYOUT */
 .container {
-  width: 312px;
-  margin: 0 32;
+  /* width: 100%; */                              /* 312px; */
+  margin: 0 20px;                           /* 0 auto; */
   /* padding: 0 20px; */
 }
 
@@ -32,9 +32,76 @@ body {
   /* padding-right: 1rem; */
 }
 
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+
 /* TEXT */
 .text-center {
-  /* text-align: center; */
+  text-align: center;
+}
+
+/* DEBUG */
+.debug{
+  background-color: rgba(255,0,0,.2);
+  border: 1px solid black;
+}
+
+.debug div,
+.debug nav{
+  border: 1px solid black;
+}
+
+/************************************************
+    SITE SECTIONS
+ ************************************************/
+
+/* HEADER */
+header {
+
+}
+
+header .top-bar {
+  height: 76px;
+  background-color: #0084fd;
+}
+
+header .container {
+  width: 100%;
+}
+
+/* DEMO SECTION */
+.demo {
+
+}
+
+.demo .container {
+  margin-top: 38px;
+  margin-bottom: 68px;
+  background-color: white;
+}
+
+.demo .row {
+  padding: 12px;
+}
+
+.demo .row .big-col {
+  height: 606px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  background-color: #b5ddff;
+}
+
+.demo .row .col {
+  height: 358px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  background-color: #b5ddff;
+}
+
+.demo .row .col:last-child {
+  margin-bottom: 0;
 }
 
 /************************************************
