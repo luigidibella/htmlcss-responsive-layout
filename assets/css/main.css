@@ -18,9 +18,9 @@ body {
 
 /* LAYOUT */
 .container {
-  /* width: 100%; */                              /* 312px; */
-  margin: 0 20px;                           /* 0 auto; */
-  /* padding: 0 20px; */
+  /* width: 100%; */                        /* 312px; */
+  margin: 0 auto;                           /* 0 20px; */
+  padding: 0 20px;
 }
 
 .row {
@@ -77,8 +77,8 @@ header .container {
 }
 
 .demo .container {
-  margin-top: 38px;
-  margin-bottom: 68px;
+  padding-top: 38px;
+  padding-bottom: 68px;
   background-color: white;
 }
 
@@ -102,6 +102,32 @@ header .container {
 
 .demo .row .col:last-child {
   margin-bottom: 0;
+}
+
+/* PLANNING SECTION */
+
+.planning {
+}
+
+.planning .container {
+  padding: 65px 32px 65px;
+  background-color: #9792e4;
+}
+
+.planning .row {
+
+}
+
+.planning .row .col-no-frame {
+  height: 614px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 43px;
+}
+
+.planning .row .col {
+  height: 614px;
+  border-radius: 50px;
+  background-color: white;
 }
 
 /************************************************
