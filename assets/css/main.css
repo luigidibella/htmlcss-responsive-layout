@@ -162,6 +162,32 @@ header .container {
   margin-bottom: 0;
 }
 
+/* BENEFITS SECTION */
+
+.benefits {
+  
+}
+
+.benefits .container{
+  padding: 222px 32px 64px;
+  background-color: #9792e4;
+}
+
+.benefits .row{
+
+}
+
+.benefits .row .col{
+  height: 398px;
+  border-radius: 50px;
+  margin-bottom: 32px;
+  background-color: white;
+}
+
+.benefits .row .col:last-child {
+  margin-bottom: 0;
+}
+
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
