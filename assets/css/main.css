@@ -188,6 +188,34 @@ header .container {
   margin-bottom: 0;
 }
 
+/* ABOUT-US SECTION */
+
+.about-us {
+
+}
+
+.about-us .container {
+  padding: 94px 32px 80px;
+  background-color: white;
+}
+
+.about-us .row {
+
+}
+
+.about-us .row .big-col {
+  height: 950px;
+  margin-bottom: 57px;
+  background-color: rgb(151, 146, 228, 0.2);
+}
+
+.about-us .row .col {
+  height: 415px;
+  background-color: rgb(151, 146, 228, 0.2);
+
+}
+
+
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
