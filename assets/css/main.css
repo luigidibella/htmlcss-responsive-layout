@@ -81,7 +81,7 @@ header .container {
 
 /* DEMO SECTION */
 .demo {
-
+  background-color: white;
 }
 
 .demo .container {
@@ -113,7 +113,7 @@ header .container {
 
 /* PLANNING SECTION */
 .planning {
-
+  background-color: #9792e4;
 }
 
 .planning .container {
@@ -139,7 +139,7 @@ header .container {
 
 /* TESTIMONIAL SECTION */
 .testimonials {
-  
+  background-color: white;
 }
 
 .testimonials .container {
@@ -170,7 +170,7 @@ header .container {
 
 /* BENEFITS SECTION */
 .benefits {
-  
+  background-color: #9792e4;
 }
 
 .benefits .container{
@@ -195,7 +195,7 @@ header .container {
 
 /* ABOUT-US SECTION */
 .about-us {
-
+  background-color: white;
 }
 
 .about-us .container {
@@ -220,7 +220,7 @@ header .container {
 
 /* GET-STARTED SECTION */
 .get-started {
-
+  background-color: #9792e4;
 }
 
 .get-started .container {
@@ -241,7 +241,7 @@ header .container {
 
 /* FOOTER */
 footer {
-
+  background-color: #333333;
 }
 
 footer .container {
