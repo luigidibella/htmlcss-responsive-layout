@@ -355,6 +355,32 @@ body{
   .testimonials .row .col {
     height: 280px;
   }
+
+  /* BENEFITS */
+  .benefits {
+
+  }
+
+  .benefits .container {
+    height: 1564;
+    padding-top: 185px;
+
+  }
+
+  .benefits .row {
+    height: 1315px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+
+  .benefits .row .col {
+    width: 48.3%;
+    height: 32%;
+    margin-bottom: 0;
+  }
 } 
 
 /************************************************
