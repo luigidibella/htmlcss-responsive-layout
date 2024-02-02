@@ -522,4 +522,25 @@ body{
     width: 47.5%;
     height: 555px;
   }
+
+  /* TESTIMONIALS */
+  .testimonials {
+  }
+
+  .testimonials .container {
+    /* padding-top: 0; */
+    height: 1337px;
+  }
+
+  .testimonials .row {
+
+  }
+
+  .testimonials .row .col-no-frame {
+    height: 220px;
+  }
+
+  .testimonials .row .col {
+    height: 280px;
+  }
 }
