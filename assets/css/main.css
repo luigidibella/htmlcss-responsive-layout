@@ -568,4 +568,34 @@ body{
     height: 48.3%;
     margin-bottom: 0;
   }
+
+  /* ABOUT-US */
+  .about-us {
+
+  }
+  
+  .about-us .container {
+    height: 810px;
+    padding-bottom: 150px;
+  }
+  
+  .about-us .row {
+    height: 566px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between; */
+  }
+  
+  .about-us .row .big-col {
+    width: 59.7%;
+    height: 566px;
+    margin-bottom: 0;
+  }
+  
+  .about-us .row .col {
+    width: 40.3%;
+    height: 566px;
+    /* background-color: rgb(151, 146, 228, 0.1); */
+  }
 }
