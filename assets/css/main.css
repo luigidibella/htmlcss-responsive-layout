@@ -458,4 +458,68 @@ body{
   body{
     background-color: rgb(47, 31, 194)      /* DEBUG */
   }
+
+  /* DEMO */
+  .demo {
+    height: 869px;
+  }
+  
+  .demo .container {
+    padding-bottom: 104px;
+  }
+  
+  .demo .row {
+    height: 715px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  
+  .demo .row .big-col {
+    width: 65.6%;
+    height: 47.5%;
+    margin-bottom: 0;
+  }
+  
+  .demo .row .col {
+    width: 31.3%;
+    height: 47.5%;
+    margin-bottom: 0;
+  }
+
+  .demo .row .col:nth-child(2) {
+    height: 47.5%;
+  }
+
+  /* PLANNING */
+  .planning {
+    
+  }
+  
+  .planning .container {
+    padding: 130px 130px 64px;
+    
+  }
+  
+  .planning .row {
+    /* height: 1896px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .planning .row .col-no-frame {
+    width: 47.5%;
+    height: 734px;
+    margin-bottom: 0;
+  }
+  
+  .planning .row .col {
+    width: 47.5%;
+    height: 555px;
+  }
 }
