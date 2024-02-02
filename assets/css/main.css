@@ -113,6 +113,7 @@ header .container {
 
 /* PLANNING SECTION */
 .planning {
+
 }
 
 .planning .container {
@@ -314,6 +315,7 @@ body{
 
   /* PLANNING */
   .planning {
+
   }
   
   .planning .container {
@@ -330,6 +332,28 @@ body{
   
   .planning .row .col {
     height: 874px;
+  }
+
+  /* TESTIMONIALS */
+  .testimonials {
+
+  }
+
+  .testimonials .container {
+    height: 1332px;
+
+  }
+
+  .testimonials .row {
+
+  }
+
+  .testimonials .row .col-no-frame {
+    height: 220px;
+  }
+
+  .testimonials .row .col {
+    height: 280px;
   }
 } 
 
