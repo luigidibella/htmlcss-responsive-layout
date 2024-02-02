@@ -76,7 +76,7 @@ header .top-bar {
 header .container {
   padding: 0 32px;
   width: 100%;
-  /* background-color: red; */
+  /* background-color: red; */              /* DEBUG */
 }
 
 /* DEMO SECTION */
@@ -581,10 +581,6 @@ body{
   
   .about-us .row {
     height: 566px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: space-between; */
   }
   
   .about-us .row .big-col {
@@ -596,6 +592,42 @@ body{
   .about-us .row .col {
     width: 40.3%;
     height: 566px;
-    /* background-color: rgb(151, 146, 228, 0.1); */
+  }
+
+  /* GET-STARTED SECTION */
+  .get-started {
+
+  }
+
+  .get-started .container {
+  
+  }
+
+  .get-started .row {
+
+  }
+
+  .get-started .row .col {
+    
+  }
+
+  /* FOOTER */
+  footer {
+
+  }
+
+  footer .container {
+
+  }
+  footer .container .row {
+  
+  }
+  
+  footer .container .row .top {
+
+  }
+  
+  footer .container .row .bottom {
+
   }
 }
