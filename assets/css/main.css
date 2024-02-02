@@ -411,6 +411,44 @@ body{
     height: 826px;
     background-color: rgb(151, 146, 228, 0.1);
   }
+
+  /* GET-STARTED SECTION */
+  .get-started {
+
+  }
+
+  .get-started .container {
+    height: 625px;
+  }
+
+  .get-started .row {
+
+  }
+
+  .get-started .row .col {
+    
+  }
+
+  /* FOOTER */
+  footer {
+
+  }
+
+  footer .container {
+    height: 224px;
+  }
+  footer .container .row {
+  
+  }
+  
+  footer .container .row .top {
+    height: 40px;
+    margin-bottom: 60px;
+  }
+  
+  footer .container .row .bottom {
+    height: 40px;
+  }
 } 
 
 /************************************************
