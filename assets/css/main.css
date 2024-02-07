@@ -34,6 +34,10 @@ body {
   /* padding-right: 1rem; */
 }
 
+.img {
+  width: 100%;
+}
+
 .justify-content-center {
   display: flex;
   justify-content: center;
@@ -74,9 +78,49 @@ header .top-bar {
 }
 
 header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 32px;
   width: 100%;
   /* background-color: red; */              /* DEBUG */
+}
+
+.top-bar .container .menu {
+  cursor: pointer;
+}
+
+.top-bar .container .menu i{
+  font-size: 21px;
+  color: white;
+}
+
+.top-bar .container .menu-list {
+  display: none;
+}
+
+.top-bar .container .menu-list ul{
+  display: flex;
+  list-style: none;
+}
+
+.top-bar .container .menu-list li{
+}
+
+.top-bar .container .menu-list a{
+  padding: 12px 17px;
+  text-decoration: none;
+  color: white;
+}
+
+#btn-white{
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#btn-white:hover {
+  opacity: 80%;
 }
 
 /* DEMO SECTION */
@@ -468,6 +512,15 @@ body{
     background-color: rgb(47, 31, 194)      /* DEBUG */
   }
 
+  /* HEADER */
+  .top-bar .container .menu {
+    display: none;
+  }
+
+  .top-bar .container .menu-list {
+    display: block;
+  }
+  
   /* DEMO */
   .demo {
     height: 869px;
