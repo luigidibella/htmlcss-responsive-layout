@@ -547,10 +547,53 @@ header .container {
 }
 
 .get-started .row .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 484px;
-  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  /* background-color: rgba(255, 255, 255, 0.2); */
 }
+
+.get-started .row .col .title {
+  color: #d5d4f4;
+}
+
+.get-started .row .col .sub-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.get-started .row .col .free {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fdc15f;
+}
+
+.get-started .row .col .sub-free {
+  line-height: 30px;
+  color: white;
+}
+
+.get-started .row .col .btn.btn-more {
+  margin: 30px 0;
+}
+
+.get-started .row .col .btn.btn-more a{
+  padding: 25px 90px;
+  border-radius: 30px;
+  color: #9792e4;
+  background-color: white;
+}
+
+.get-started .row .col span {
+  color: white;
+}
+
+
 
 /* FOOTER */
 footer {
