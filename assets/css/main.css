@@ -134,6 +134,10 @@ header .container {
   color: white;
 }
 
+.top-bar .container .menu-list a:hover {
+  text-decoration: underline;
+}
+
 #btn-white{
   color: black;
   background-color: white;
@@ -190,6 +194,10 @@ header .container {
 
 .demo .row .big-col .btn a {
   background-color: #0084fd;
+}
+
+.demo .row .big-col .btn a:hover {
+  text-decoration: underline;
 }
 
 .demo .row .big-col .box-image {
@@ -396,8 +404,16 @@ header .container {
   background-color: #9792e4;
 }
 
+.benefits .title {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 1.8rem;
+}
+
 .benefits .container{
-  padding: 222px 32px 64px;
+  padding-top: 100px;
+  padding: 122px 32px 64px;
   background-color: #9792e4;
 }
 
@@ -406,10 +422,46 @@ header .container {
 }
 
 .benefits .row .col{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 398px;
   border-radius: 50px;
   margin-bottom: 32px;
   background-color: white;
+  padding: 45px 45px;
+}
+
+.benefits .row .col .num {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #9792e4;
+}
+
+.benefits .row .col .sub-num {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #9792e4;
+}
+
+.benefits .row .col p {
+  line-height: 25px;
+  color: #737373;
+}
+
+.btn-more {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.btn-more a{
+  border-radius: 25px;
+  padding: 11.5px 53px;
+  background-color: #9792e4;
+}
+
+.btn-more a:hover {
+  text-decoration: underline;
 }
 
 .benefits .row .col:last-child {
@@ -604,8 +656,7 @@ body{
 
   .benefits .container {
     height: 1564px;
-    padding-top: 185px;
-
+    /* padding-top: 185px; */
   }
 
   .benefits .row {
@@ -819,7 +870,7 @@ body{
 
   .benefits .container {
     height: 1120px;
-    padding: 185px 0 64px;
+    padding: 100px 0 64px;
   }
 
   .benefits .row {
