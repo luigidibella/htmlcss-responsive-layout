@@ -589,11 +589,10 @@ header .container {
   background-color: white;
 }
 
+.get-started a:-webkit-any-link,
 .get-started .row .col span {
   color: white;
 }
-
-
 
 /* FOOTER */
 footer {
@@ -602,6 +601,8 @@ footer {
 
 footer .container {
   padding: 44px 32px 40px;
+  text-align: center;
+  color: white;
   background-color: #333333;
 }
 
@@ -612,12 +613,16 @@ footer .container .row {
 footer .container .row .top {
   height: 50px;
   margin-bottom: 70px;
-  background-color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgba(255, 255, 255, 0.2); */
 }
 
 footer .container .row .bottom {
   height: 30px;
-  background-color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgba(255, 255, 255, 0.2); */
+}
+
+footer a:-webkit-any-link {
+  color: #9792e4;
 }
 
 /************************************************
