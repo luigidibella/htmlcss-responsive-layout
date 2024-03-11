@@ -483,15 +483,53 @@ header .container {
 }
 
 .about-us .row .big-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 950px;
   margin-bottom: 57px;
-  background-color: rgb(151, 146, 228, 0.2);
+  /* background-color: rgb(151, 146, 228, 0.2); */
 }
 
-.about-us .row .col {
-  height: 415px;
-  background-color: rgb(151, 146, 228, 0.2);
+.about-us .row .big-col .title {
+  font-size: 2rem;
+  color:#9792e4;
 }
+
+.about-us .row .big-col p {
+  line-height: 35px;
+}
+
+
+.about-us .row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 415px;
+  /* background-color: rgb(151, 146, 228, 0.2); */
+}
+
+.img-frame.quadris{
+  background-image: url(/assets/img/about.jpg);
+}
+
+.about-us .row .col .caption {
+  max-width: 250px;
+  padding: 20px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #9792e4;
+  line-height: 35.5px;
+}
+
+.about-us .row .col .btn.btn-more {
+  font-weight: normal;
+}
+
+.about-us .row .col .btn.btn-more a {
+  padding: 11px 21px;
+}
+
 
 /* GET-STARTED SECTION */
 .get-started {
@@ -701,7 +739,6 @@ body{
   .about-us .row .col {
     width: 40.3%;
     height: 826px;
-    background-color: rgb(151, 146, 228, 0.1);
   }
 
   /* GET-STARTED SECTION */
