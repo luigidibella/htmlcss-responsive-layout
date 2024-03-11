@@ -34,8 +34,8 @@ body {
   /* padding-right: 1rem; */
 }
 
-.img {
-  max-width: 100%;
+img {
+  width: 100%;
 }
 
 .justify-content-center {
@@ -236,15 +236,62 @@ header .container {
 }
 
 .planning .row .col-no-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  
   height: 620px;
-  background-color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgba(255, 255, 255, 0.2); */
   margin-bottom: 35px;
+  color: white;
+}
+
+.planning .row .col-no-frame h2{
+  padding-top: 25%;
+  padding-bottom: 50px;
+  font-size: 1.6rem;
+}
+
+.planning .row .col-no-frame p{
+  /* padding-right: 20px; */
+  line-height: 30px;
 }
 
 .planning .row .col {
   height: 614px;
   border-radius: 50px;
   background-color: white;
+}
+
+.planning .row .col .box-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  line-height: 30px;
+}
+
+.planning .row .col .box-image p {
+  font-style: italic;
+  padding: 0 20px;
+}
+
+.planning .row .box-image img{
+  
+}
+
+.btn-circle {
+  margin: 16px 0;
+}
+
+.btn-circle a{
+  padding: 16.5px 19px;
+  border-radius: 50%;
+  color: black;
+  background-color: #9792e4;
 }
 
 /* TESTIMONIAL SECTION */
@@ -657,6 +704,10 @@ body{
   .planning .row .col {
     width: 47.5%;
     height: 555px;
+  }
+
+  .planning .row .col .box-image img {
+    width: 70%;
   }
 
   /* TESTIMONIALS */
